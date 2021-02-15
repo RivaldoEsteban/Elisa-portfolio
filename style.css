@@ -50,6 +50,7 @@ body {
   box-sizing: border-box;
   width: 250px;
   cursor: pointer;
+  outline: none;
 }
 
 .hero-presentation {
@@ -329,6 +330,8 @@ body {
   border-radius: 20px;
   border: 1px solid black;
   background: #42E2B8;
+  outline: none;
+  cursor: pointer;
 }
 
 .footer {
