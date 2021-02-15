@@ -49,6 +49,7 @@ body {
   text-transform: uppercase;
   box-sizing: border-box;
   width: 250px;
+  cursor: pointer;
 }
 
 .hero-presentation {
@@ -93,6 +94,7 @@ body {
   border-radius: 5px;
   box-sizing: border-box;
   background: #42E2B8;
+  cursor: pointer;
 }
 
 .presentation {
@@ -337,4 +339,55 @@ body {
 
 .footer-container {
   margin-bottom: 20px;
+}
+.bolita {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  box-shadow: 1px 1px 200px 50px turquoise;
+  position: relative;
+  bottom:  600px ;
+  left: 250px ;
+}
+
+.bolita2 {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  box-shadow: 0px 0px 200px 50px #BF358E;
+  position: relative;
+  top: 200px;
+  right: 70px;
+  /* bottom:  600px ; */
+  /* left: 250px ; */
+}
+
+.bolita3 {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  box-shadow: 0px 0px 200px 50px turquoise;
+  position: relative;
+  left: 700px;
+  top: 100px;
+}
+
+.bolita4{
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  box-shadow: 0px 0px 200px 50px turquoise;
+  position: relative;
+  top: 180px;
+  left: 30px;
+}
+
+.bolita5{
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  box-shadow: 0px 0px 200px 60px turquoise;
+  position: relative;
+  top: 40px;
+  left: 350px;
 }
